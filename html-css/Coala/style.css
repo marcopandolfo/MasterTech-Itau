@@ -1,0 +1,33 @@
+body {
+    background-color: lightblue;
+    margin: 0% auto;
+}
+
+#navbar {
+    width: 100%;
+    height: 75px;
+    background-color: lightblue;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+li {
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+#caixaUm {
+    background-color: lightblue;
+    width: 200px;
+    height: 200px;
+}
+
+#caixaDois {
+    background-color: lightblue;
+    width: 200px;
+    height: 200px;
+}
