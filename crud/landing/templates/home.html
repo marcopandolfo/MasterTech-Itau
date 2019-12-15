@@ -1,0 +1,37 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="{% static 'css/styles.css' %}">
+    <title>Home</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar-home">
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/alunos/cadastro">Cadastro</a></li>
+                <li><a href="/alunos/lista">Lista</a></li>
+                <li id="login-li"><a href="/alunos/login">Login</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <img class="main-img" src="{% static 'img/main-img.png' %}" alt="">
+
+        <div class="texts-box">
+            <div class="txt1">
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quisquam esse nisi autem Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tenetur cum magni velit recusandae, dolorum ex excepturi amet sed molestiae ipsum possimus explicabo et inventore fuga? Cupiditate quis optio enim recusandae. nostrum excepturi nihil, ipsa, obcaecati quas magni aperiam dolorem dicta laudantium velit tempora ex quam, dolore facilis possimus!</p>    
+            </div>
+            <div class="txt2">
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quisquam esse nisi autem Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tenetur cum magni velit recusandae, dolorum ex excepturi amet sed molestiae ipsum possimus explicabo et inventore fuga? Cupiditate quis optio enim recusandae. nostrum excepturi nihil, ipsa, obcaecati quas magni aperiam dolorem dicta laudantium velit tempora ex quam, dolore facilis possimus!</p>
+            </div>
+        </div>
+    </main>
+</body>
+</html>

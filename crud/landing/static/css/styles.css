@@ -1,0 +1,111 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.titulo-index{
+    color: blue;
+    font-size: 30pt;
+}
+
+.listagem{
+    text-decoration: none;
+    font-size: 15pt;
+    color: rgba(50, 43, 148, 0.36);
+}
+
+form{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: column;
+    
+}
+label{
+    font-size: 10pt;
+    margin: 10px;
+}
+
+#frase{
+    height: 90px;
+}
+
+#botao{
+    width: 20%;
+    background-color: rgba(50, 43, 148, 0.36);
+    font-weight: bold;
+}
+
+#botao:hover{
+    background-color: rgba(243, 108, 55, 0.36);
+    border: none;
+    box-shadow: 5px 5px black;
+}
+
+input{
+    height: 40px;
+    margin: 5px;
+    width: 35%;
+}
+
+.imagem{
+    width: 22%;
+    margin: 20px 20px 20px 0px;
+}
+
+
+/* Home CSS */
+
+.navbar-home ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: orange;
+}
+
+.navbar-home ul li {
+    display: inline-block;
+    margin: 5px;
+}
+
+.navbar-home ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+.navbar-home ul li a:hover {
+    background-color: #111;
+    border-radius: 10px;
+}
+#login-li {
+    float: right;
+}
+.main-img {
+    width: 400px;
+    margin: 30px;
+    border: 3px solid black;
+    border-radius: 5px;
+}
+
+.texts-box p {
+    width: 600px;
+}
+.texts-box {
+    display: flex;
+    justify-content: space-around;
+}
+.login-btn {
+    border: 1px solid black;
+    font-size: 1.3em;
+    padding: 5px;
+    margin-top: 10px;
+    margin-left: 7px;
+    text-decoration: none;
+    background-color: lightblue;
+    color: black;
+}

@@ -1,0 +1,23 @@
+{% extends "base.html" %}
+{% load static %}
+{% block content %}
+<header>
+    <nav class="navbar-home">
+        <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/alunos/cadastro">Cadastro</a></li>
+            <li><a href="/alunos/lista">Lista</a></li>
+            <li id="login-li"><a href="/alunos/login">Login</a></li>
+        </ul>
+    </nav>
+</header>
+<h1>Lista de suas frases e dúvida</h1>
+{% for item in listar_frase %}
+        <p>Nome do Aluno: {{item.nome}}</p>
+        <p>Frase: {{item.frase}}</p>
+        <a href="/alunos/delete/{{item.id}}">Deletar</a>
+        <hr>
+{% endfor %}
+
+
+{% endblock %}
