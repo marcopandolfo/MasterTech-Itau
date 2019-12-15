@@ -1,0 +1,16 @@
+__pycache__/
+
+
+env
+myenv
+/myenv
+/env
+.env
+.venv
+.myenv
+/venv
+
+vscode
+.vscode
+
+db.sqlite3
